@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/food-recipe-app-react/static/js/main.dc1dc100.chunk.js",
-    "main.js.map": "/food-recipe-app-react/static/js/main.dc1dc100.chunk.js.map",
+    "main.js": "/food-recipe-app-react/static/js/main.a8adb92d.chunk.js",
+    "main.js.map": "/food-recipe-app-react/static/js/main.a8adb92d.chunk.js.map",
     "runtime-main.js": "/food-recipe-app-react/static/js/runtime-main.eef75279.js",
     "runtime-main.js.map": "/food-recipe-app-react/static/js/runtime-main.eef75279.js.map",
     "static/js/2.3cb9468d.chunk.js": "/food-recipe-app-react/static/js/2.3cb9468d.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.eef75279.js",
     "static/js/2.3cb9468d.chunk.js",
-    "static/js/main.dc1dc100.chunk.js"
+    "static/js/main.a8adb92d.chunk.js"
   ]
 }

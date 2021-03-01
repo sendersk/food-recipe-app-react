@@ -1,0 +1,2 @@
+(this["webpackJsonpfood-recipe-app-react"]=this["webpackJsonpfood-recipe-app-react"]||[]).push([[0],{9:function(e,t,c){"use strict";c.r(t);var r=c(0),n=c.n(r),o=c(3),a=c.n(o),i=c(1);var p=function(){return Object(i.jsx)("div",{children:"Hello React"})};a.a.render(Object(i.jsx)(n.a.StrictMode,{children:Object(i.jsx)(p,{})}),document.getElementById("root"))}},[[9,1,2]]]);
+//# sourceMappingURL=main.a8adb92d.chunk.js.map
