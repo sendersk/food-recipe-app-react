@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     getRecipes();
-  }, []);
+  }, [query]);
 
   const getRecipes = async () => {
     const response = await fetch(
@@ -31,6 +31,7 @@ function App() {
   const getSearch = (e) => {
     e.preventDefault();
     setQuery(search);
+    setSearch("");
   };
 
   return (
@@ -52,6 +53,7 @@ function App() {
           title={recipe.recipe.label}
           calories={recipe.recipe.calories}
           image={recipe.recipe.image}
+          ingredients={recipe.recipe.ingredients}
         />
       ))}
     </div>
