@@ -10,7 +10,7 @@ function Recipe({ title, calories, image, ingredients }) {
           <li>{ingredient.text}</li>
         ))}
       </ol>
-      <p>{calories}</p>
+      <p>Calories: {calories.toFixed(2)}</p>
       <img className={style.image} src={image} alt="" />
     </div>
   );
