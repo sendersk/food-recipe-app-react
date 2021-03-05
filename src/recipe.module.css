@@ -16,3 +16,8 @@
     width: 150px;
     height: 150px;
 }
+
+.list {
+    padding: 5px;
+    list-style: none;
+}
