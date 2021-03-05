@@ -5,12 +5,12 @@ function Recipe({ title, calories, image, ingredients }) {
   return (
     <div className={style.recipe}>
       <h1>{title}</h1>
-      <ol>
+      <ul className={style.list}>
         {ingredients.map((ingredient) => (
           <li>{ingredient.text}</li>
         ))}
-      </ol>
-      <p>Calories: {calories.toFixed(2)}</p>
+      </ul>
+      <p>Calories: {Math.round(calories)}</p>
       <img className={style.image} src={image} alt="" />
     </div>
   );
